@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Quit Button */
+#quitButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #dc3545; /* Red color for quit/danger */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#quitButton:hover {
+    background-color: #c82333;
+}
+
+/* Initial state for the message */
+.hidden {
+    display: none;
+}
+
+/* Style the quit message */
+#quitMessage {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #dc3545;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+}
